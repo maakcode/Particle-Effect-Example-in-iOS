@@ -11,7 +11,7 @@ struct SnowView: View {
                 .scaledToFill()
             SpriteView(scene: scene, options: [.allowsTransparency])
         }
-        .edgesIgnoringSafeArea(.all)
+        .preferredColorScheme(.dark)
     }
 }
 
