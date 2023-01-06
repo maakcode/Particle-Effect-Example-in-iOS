@@ -8,7 +8,7 @@ struct SnowView: View {
         ZStack {
             Image("Santiago Gomez")
                 .resizable()
-                .aspectRatio(contentMode: .fill)
+                .scaledToFill()
             SpriteView(scene: scene, options: [.allowsTransparency])
         }
         .edgesIgnoringSafeArea(.all)
